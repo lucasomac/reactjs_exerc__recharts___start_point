@@ -5,14 +5,12 @@ import GraphictQtdProfPorEstadoCivil from './GraphictQtdProfPorEstadoCivil'
 import GraphictQtdReprovacoesPorAno from './GraphictQtdReprovacoesPorAno'
 
 function App() {
-    return <>  
-             <h1> EXERCÍCIOS ACERCA DE GRÁFICOS </h1>
+    return <div>  
              <GraphictQtdCursosPorInstituicao/>
              <GraphictQtdDisciplinasPorProfessor/>
              <GraphictQtdProfPorEstadoCivil/>
              <GraphictQtdReprovacoesPorAno/>
-             <br/>
-           </>  
+           </div>  
 }
 
 export default App;
