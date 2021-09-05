@@ -28,7 +28,7 @@ function GraphictQtdCursosPorInstituicao() {
         return <>
             <GlobalStyle />
             <SForm>
-                <STitle> Quatidade de Cursos ccatalogdos por Instituicao</STitle>
+                <STitle> Quantidade de Cursos catalogados por Instituicao</STitle>
                 <BarChart width={600} height={600} data={dataQtdCourseByInstitution} reverseStackOrder={true}>
                     <XAxis dataKey="inst" stroke="#B49" />
                     <YAxis />

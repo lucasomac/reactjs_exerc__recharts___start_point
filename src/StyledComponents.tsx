@@ -25,7 +25,7 @@ animation: 2s linear ${spin} infinite`
 
 export const GlobalStyle = createGlobalStyle`
 html{ height : 100%; }
-body { height : 50%; font-family: Arial, sans-serif; font-size: ${LABEL_FONT_SIZE}; background: linear-gradient(to bottom, #D3C, #F9E); margin: 0; color: ${LABEL_COLOR}}`
+body { height : 50%; font-family: Arial, sans-serif; font-size: ${LABEL_FONT_SIZE}; background: linear-gradient(to bottom, #ABC, #F9E); margin: 0; color: ${LABEL_COLOR}}`
 
 const inputs = css` 
 background-color: #EEE;
@@ -44,7 +44,7 @@ box-shadow: 0 0 10px #A71;
 
 export const STitle = styled.h2`
 margin: auto 8;
-text-aling: center;
+text-align: center;
 padding: 10px
 color: ${TITLE_COLOR}`
 
